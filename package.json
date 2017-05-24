@@ -4,10 +4,10 @@
   "description": "Provides easy access to Federacion Española de Baloncesto web data",
   "main": "index.js",
   "scripts": {
-    "test": "npm run lint && npm run test:all && run test:all:coverage:check",
+    "test": "npm run lint && npm run test:all && npm run test:all:coverage:check",
     "lint": "eslint lib/*",
     "test:all": "nyc --reporter=text-summary --reporter=html mocha --recursive ./test/unit/* ./test/integration/*",
-    "test:integration:coverage:check": "nyc check-coverage --statements 95 --branches 90 --functions 95 --lines 95",
+    "test:all:coverage:check": "nyc check-coverage --statements 95 --branches 90 --functions 95 --lines 95",
     "test:unit": "nyc --reporter=text-summary --reporter=html mocha --recursive ./test/unit/*",
     "test:unit:coverage:check": "nyc check-coverage --statements 95 --branches 90 --functions 95 --lines 95",
     "test:integration": "nyc --reporter=text-summary --reporter=html mocha --timeout 20000 --recursive ./test/integration/*",
