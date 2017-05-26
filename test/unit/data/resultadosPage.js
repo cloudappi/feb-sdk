@@ -3,11 +3,11 @@
 module.exports = {};
 module.exports.seasons = [];
 
-function addSeason(startingYear) {
-  const endingYear = startingYear + 1;
-  const title = startingYear + '/' + endingYear;
+function addSeason(id) {
+  const endingYear = id + 1;
+  const title = id + '/' + endingYear;
   module.exports.seasons.push({
-    title, startingYear, endingYear
+    id, title
   });
 }
 
@@ -23,6 +23,101 @@ addSeason(2008);
 addSeason(2007);
 addSeason(2006);
 addSeason(2005);
+
+module.exports.categories = [];
+
+function addCategory(id, title) {
+  module.exports.categories.push({
+    id, title
+  });
+};
+
+addCategory(14308, 'C ESP CLUBES CAD MASC');
+addCategory(14307, 'C ESP CLUBES CAD FEM');
+addCategory(14365, 'FASE FINAL SUB 21 MASC');
+addCategory(14358, 'FASE FINAL INFANTIL MASCULINO');
+addCategory(14362, 'FASE FINAL INFANTIL FEMENINO');
+addCategory(13212, 'LIGA EBA');
+addCategory(14299, 'Fase Final 1ª División Femenin');
+addCategory(14359, 'FASE FINAL 1ª DIV. AUT. FEM.');
+addCategory(13204, 'LIGA LEB ORO');
+addCategory(13206, 'LIGA LEB PLATA');
+addCategory(13242, '1ª División Nac. Masculina');
+addCategory(14317, 'FINAL A CUATRO NAC. FEM.');
+addCategory(13244, '1ª División Nac. Femenina');
+addCategory(13245, '1ª Div. Aut. Masc. Sr. A');
+addCategory(13246, '1ª Div. Aut. Masc. Sr. B');
+addCategory(13293, '1ª Div. Aut. Fem.');
+addCategory(13247, '2ª Div Aut Masc A1');
+addCategory(13294, '2ª Div Aut Fem A1');
+addCategory(13248, '2ª Div Aut Masc A2');
+addCategory(13295, '2ª Div Aut Fem A2');
+addCategory(13249, '2ª Div Aut Masc B');
+addCategory(13296, '2ª Div Aut Fem B');
+addCategory(13250, 'Sub 21 Masc. A1');
+addCategory(13251, 'Sub 21 Masc. A2');
+addCategory(13284, 'Sub 21 Masc. Fed.');
+addCategory(14310, 'C ESP CLUBES JR MASC');
+addCategory(14294, 'FASE FINAL JUNIOR MASCULINO');
+addCategory(13252, 'Junior Masc. A1');
+addCategory(13260, 'Junior Masc. A2');
+addCategory(13261, 'Junior Masc. A3');
+addCategory(13285, 'Junior Masc. Federado');
+addCategory(14309, 'C ESP CLUBES JR FEM');
+addCategory(14295, 'FASE FINAL JUNIOR FEMENINO');
+addCategory(13297, 'Junior Fem. A1');
+addCategory(13298, 'Junior Fem. A2');
+addCategory(13299, 'Junior Fem. A3');
+addCategory(13306, 'Junior Fem. Federado');
+addCategory(14318, 'FASE FINAL CADETE MASCULINO');
+addCategory(13265, 'Cadete Masc. A1');
+addCategory(13270, 'Cadete Masc. A2');
+addCategory(13276, 'Cadete Masc. A3');
+addCategory(13286, 'Cadete Masc. Federado');
+addCategory(14344, 'FASE FINAL CADETE FEMENINO');
+addCategory(13300, 'Cadete Fem. A1');
+addCategory(13301, 'Cadete Fem. A2');
+addCategory(13302, 'Cadete Fem. A3');
+addCategory(13307, 'Cadete Fem. Federado');
+addCategory(13280, 'Infantil Masc. A1');
+addCategory(13282, 'Infantil Masc. A2');
+addCategory(13283, 'Infantil Masc. A3');
+addCategory(13287, 'Infantil Masc. Federado');
+addCategory(13303, 'Infantil Fem. A1');
+addCategory(13304, 'Infantil Fem. A2');
+addCategory(13305, 'Infantil Fem. A3');
+addCategory(13308, 'Infantil Fem. Federado');
+addCategory(13288, 'Preinfantil Masculino');
+addCategory(13309, 'Preinfantil Femenino');
+addCategory(13289, 'Alv Mas 2ºaño');
+addCategory(13310, 'Alv Fem 2ºaño');
+addCategory(13290, 'Alv Mas 1ºaño');
+addCategory(13311, 'Alv Fem 1ºaño');
+addCategory(13291, 'Benj Mas 2ºaño');
+addCategory(13312, 'Benj Fem 2ºaño');
+addCategory(13292, 'Benj Mas 1ºaño');
+addCategory(13313, 'Benj Fem 1ºaño');
+addCategory(14125, 'C.ESCOLARES JUV. MASC. ABIERTA');
+addCategory(14124, 'C.ESCOLARES JUVENIL FEMENINO');
+addCategory(14121, 'C.ESCOLARES CAD. MASC. ABIERTA');
+addCategory(14120, 'C.ESCOLARES CADETE FEMENINO');
+addCategory(14123, 'C.ESCOLARES INF. MASC. ABIERTA');
+addCategory(14122, 'C.ESCOLARES INFANTIL FEMENINO');
+addCategory(13208, 'Liga Femenina 1');
+addCategory(13210, 'L.F.-2');
+addCategory(13330, 'Liga Universitaria Masculina');
+addCategory(14199, 'CE SSAA Mini Mas.');
+addCategory(14198, 'CE SSAA Mini Fem.');
+addCategory(14149, 'CE SSAA Cadete Mas.');
+addCategory(14148, 'CE SSAA Cadete Fem.');
+addCategory(14151, 'CE SSAA Infantil Mas.');
+addCategory(14150, 'CE SSAA Infantil Fem.');
+addCategory(13331, 'Liga Universitaria Femenina');
+addCategory(14213, 'SUPERLIGA DIA');
+addCategory(14075, 'VII Torneo Leucemia y Linfoma');
+addCategory(14024, 'PREVIA MINICOPA');
+addCategory(13785, 'III TORNEO L.F.-2');
+addCategory(13596, 'VIII TORNEO LIGA EBA');
 
 module.exports.html = `
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" >

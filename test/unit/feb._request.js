@@ -2,11 +2,12 @@
 
 const expect = require('chai').expect;
 const sinon = require('sinon');
+const qs = require('querystring');
 
 const injectToFeb = require('../../lib/feb');
 
 describe('feb._request', () => {
-  const categoryId = 14;
+  const competitionId = 14;
   let http;
   let _request;
   let reqMock;
@@ -22,7 +23,7 @@ describe('feb._request', () => {
     const FEB = injectToFeb(http);
     const feb = new FEB();
     context = {
-      categoryId
+      competitionId
     };
     _request = feb._request.bind(context);
   });
@@ -38,13 +39,27 @@ describe('feb._request', () => {
   it('should resolve the request the provided body with POST method and concat the reply', () => {
     const params = { a: 1, b: 2 };
     const promise = _request(params);
+
     expect(http.request.calledOnce).to.be.true;
+
     const options  = http.request.getCall(0).args[0];
     expect(options.host).to.equal('competiciones.feb.es');
-    expect(options.path).to.equal('/autonomicas/Resultados.aspx?a=' + categoryId);
+    expect(options.path).to.equal('/autonomicas/Resultados.aspx?a=' + competitionId);
     expect(options.method).to.equal('POST');
+
     expect(reqMock.write.calledOnce).to.be.true;
-    expect(reqMock.write.getCall(0).args[0]).to.equal('a=1&b=2');
+    const body = qs.parse(reqMock.write.getCall(0).args[0]);
+    expect(parseInt(body.a)).to.equal(params.a);
+    expect(parseInt(body.b)).to.equal(params.b);
+    expect(body.__EVENTTARGET).to.exists;
+    expect(body.__EVENTTARGET).to.equal('');
+    expect(body.__EVENTARGUMENT).to.exists;
+    expect(body.__EVENTARGUMENT).to.equal('');
+    expect(body.__LASTFOCUS).to.exists;
+    expect(body.__VIEWSTATE).to.exists;
+    expect(body.__VIEWSTATEGENERATOR).to.exists;
+    expect(body.__EVENTVALIDATION).to.exists;
+
     expect(reqMock.end.calledOnce).to.be.true;
 
     const callback = http.request.getCall(0).args[1];
@@ -67,9 +82,8 @@ describe('feb._request', () => {
   });
 
   it('should reject the request if something wrong happens', () => {
-    const resource = 'foo';
     const data = { a: 1, b: 2 };
-    const promise = _request(resource, data);
+    const promise = _request(data);
 
     const callback = http.request.getCall(0).args[1];
     const res = {

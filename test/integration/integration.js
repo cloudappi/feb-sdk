@@ -3,11 +3,11 @@
 const FEB = require('../../');
 const expect = require('chai').expect;
 
-describe('FEB SDK', () => {
+describe.only('FEB SDK', () => {
   let feb;
   beforeEach(() => {
     feb = new FEB();
-    feb.setCategoryId(14);
+    feb.setCompetitionId(14);
   });
 
   it('should be able to retrieve all seasons', async () => {
@@ -20,7 +20,19 @@ describe('FEB SDK', () => {
     });
   });
 
-  it('should be able to retrieve all season categories');
+  it('should be able to retrieve all season categories', async () => {
+    const reply = await feb.getCategories(2015);
+    expect(reply).to.be.a('array');
+    expect(reply).to.have.length.of.at.least(12);
+    reply.forEach((season) => {
+      expect(season).to.have.property('id');
+      expect(season).to.have.property('title');
+    });
+
+    console.log((await feb.getCategories(2016))[0]);
+    console.log((await feb.getCategories(2015))[0]);
+    console.log((await feb.getCategories(2014))[0]);
+  });
 
   it('should be able to retrieve all category groups');
 
