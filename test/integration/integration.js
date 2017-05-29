@@ -1,9 +1,9 @@
-'use strict'
+'use strict';
 
 const FEB = require('../../');
 const expect = require('chai').expect;
 
-describe.only('FEB SDK', () => {
+describe('FEB SDK', () => {
   let feb;
   beforeEach(() => {
     feb = new FEB();
@@ -28,10 +28,6 @@ describe.only('FEB SDK', () => {
       expect(season).to.have.property('id');
       expect(season).to.have.property('title');
     });
-
-    console.log((await feb.getCategories(2016))[0]);
-    console.log((await feb.getCategories(2015))[0]);
-    console.log((await feb.getCategories(2014))[0]);
   });
 
   it('should be able to retrieve all category groups');
