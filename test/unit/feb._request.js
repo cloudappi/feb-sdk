@@ -71,7 +71,7 @@ describe('feb._request', () => {
     expect(result).to.equal(html);
   });
 
-  it.skip('should update the security form values', async () => {
+  it('should update the security form values', async () => {
     const params = { a: 1, b: 2 };
 
     await _request(params);
