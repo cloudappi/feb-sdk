@@ -19,9 +19,14 @@ describe('FEB constructor', () => {
     expect(feb).to.be.an.instanceOf(FEB);
   });
 
-  it('should accept categoryId in options parameter', () => {
-    const categoryId = 3;
-    const feb = FEB({ categoryId });
-    expect(feb.categoryId).to.equal(categoryId);
+  it('should accept competitionId in options parameter', () => {
+    const competitionId = 3;
+    const feb = new FEB({ competitionId });
+    expect(feb.competitionId).to.equal(competitionId);
+  });
+
+  it('should initialize _securityFormValues property', () => {
+    const feb = new FEB();
+    expect(feb._securityFormValues).to.equal(null);
   });
 });

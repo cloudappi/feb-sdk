@@ -30,9 +30,9 @@ describe('feb.getSeasons', () => {
     const expectedSeasons = resultadosPage.seasons;
     seasons.forEach((season, index) => {
       expect(season.id).to.exist;
-      expect(season.id).to.equal(seasons[index].id);
+      expect(season.id).to.equal(expectedSeasons[index].id);
       expect(season.title).to.exist;
-      expect(season.title).to.equal(seasons[index].title);
+      expect(season.title).to.equal(expectedSeasons[index].title);
     });
   });
 });

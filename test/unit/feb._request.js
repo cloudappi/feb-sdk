@@ -6,23 +6,36 @@ const sinon = require('sinon');
 const injectToFeb = require('../../lib/feb');
 
 describe('feb._request', () => {
-  const categoryId = 14;
+  const competitionId = 14;
+  const html = '<html><body>It works!</body></html>';
+  const securityFormValuesMock = {
+    __EVENTTARGET: 'a',
+    __EVENTARGUMENT: 'b',
+    __EVENTVALIDATION: 'c',
+    __LASTFOCUS: 'd',
+    __VIEWSTATE: 'e',
+    __VIEWSTATEGENERATOR: 'f'
+  };
+  const updatedSecurityFormValuesMock = {
+    __EVENTTARGET: 'g',
+    __EVENTARGUMENT: 'h',
+    __EVENTVALIDATION: 'i',
+    __LASTFOCUS: 'j',
+    __VIEWSTATE: 'k',
+    __VIEWSTATEGENERATOR: 'l'
+  };
+
   let http;
   let _request;
-  let reqMock;
-  let resMock;
   beforeEach(() => {
-    reqMock = {
-      write: sinon.spy(),
-      end: sinon.spy()
-    };
-    http = {
-      request: sinon.stub().returns(reqMock)
-    };
+    http = sinon.stub().resolves(html);
     const FEB = injectToFeb(http);
     const feb = new FEB();
+
     context = {
-      categoryId
+      competitionId,
+      _getSecurityFormValues: sinon.stub().resolves(securityFormValuesMock),
+      _extractSecurityFormValues: sinon.stub().returns(updatedSecurityFormValuesMock)
     };
     _request = feb._request.bind(context);
   });
@@ -35,56 +48,36 @@ describe('feb._request', () => {
     expect(_request()).to.be.an.instanceOf(Promise);
   });
 
-  it('should resolve the request the provided body with POST method and concat the reply', () => {
+  it('should POST the provided params to the URI bypassing security', async () => {
     const params = { a: 1, b: 2 };
-    const promise = _request(params);
-    expect(http.request.calledOnce).to.be.true;
-    const options  = http.request.getCall(0).args[0];
-    expect(options.host).to.equal('competiciones.feb.es');
-    expect(options.path).to.equal('/autonomicas/Resultados.aspx?a=' + categoryId);
+
+    const result = await _request(params);
+
+    expect(context._getSecurityFormValues.calledOnce).to.be.true;
+    expect(http.calledOnce).to.be.true;
+
+    const options  = http.getCall(0).args[0];
     expect(options.method).to.equal('POST');
-    expect(reqMock.write.calledOnce).to.be.true;
-    expect(reqMock.write.getCall(0).args[0]).to.equal('a=1&b=2');
-    expect(reqMock.end.calledOnce).to.be.true;
+    expect(options.uri).to.equal('http://competiciones.feb.es/autonomicas/Resultados.aspx?a=' + competitionId);
 
-    const callback = http.request.getCall(0).args[1];
-    const res = {
-      handlers: {}
-    };
-    res.on = function(name, handler) {
-      this.handlers[name] = handler;
-    };
-    callback(res);
-
-    const html = '<html><body>It works!</body></html>';
-    res.handlers.data(html.substr(0,15));
-    res.handlers.data(html.substr(15,html.length));
-    res.handlers.end();
-
-    return promise.then(function(body) {
-      expect(body).to.equal(html);
+    Object.keys(params).forEach((property) => {
+      expect(params[property]).to.equal(options.formData[property]);
     });
+
+    Object.keys(securityFormValuesMock).forEach((property) => {
+      expect(securityFormValuesMock[property]).to.equal(options.formData[property]);
+    });
+
+    expect(result).to.equal(html);
   });
 
-  it('should reject the request if something wrong happens', () => {
-    const resource = 'foo';
-    const data = { a: 1, b: 2 };
-    const promise = _request(resource, data);
+  it('should update the security form values', async () => {
+    const params = { a: 1, b: 2 };
 
-    const callback = http.request.getCall(0).args[1];
-    const res = {
-      handlers: {}
-    };
-    res.on = function(name, handler) {
-      this.handlers[name] = handler;
-    };
-    callback(res);
+    await _request(params);
 
-    const resError = new Error('foobar');
-    res.handlers.error(resError);
-
-    return promise.catch(function(error) {
-      expect(error).to.equal(resError);
+    Object.keys(updatedSecurityFormValuesMock).forEach((property) => {
+      expect(updatedSecurityFormValuesMock[property]).to.equal(context._securityFormValues[property]);
     });
   });
 });

@@ -6,7 +6,7 @@
   "scripts": {
     "test": "npm run lint && npm run test:all && npm run test:all:coverage:check",
     "lint": "eslint lib/*",
-    "test:all": "nyc --reporter=text-summary --reporter=html mocha --recursive ./test/unit/* ./test/integration/*",
+    "test:all": "nyc --reporter=text-summary --reporter=html mocha --recursive --timeout 20000 ./test/unit/* ./test/integration/*",
     "test:all:coverage:check": "nyc check-coverage --statements 95 --branches 90 --functions 95 --lines 95",
     "test:unit": "nyc --reporter=text-summary --reporter=html mocha --recursive ./test/unit/*",
     "test:unit:coverage:check": "nyc check-coverage --statements 95 --branches 90 --functions 95 --lines 95",
@@ -31,6 +31,9 @@
     "sinon": "^2.3.1"
   },
   "dependencies": {
-    "cheerio": "^0.22.0"
+    "cheerio": "^0.22.0",
+    "debug": "^2.6.8",
+    "request": "^2.81.0",
+    "request-promise-native": "^1.0.4"
   }
 }
