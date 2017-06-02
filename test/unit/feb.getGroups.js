@@ -16,19 +16,25 @@ describe('feb.getGroups', () => {
   beforeEach(() => {
     FEB = injectToFeb();
     context = {
+      getCategories: sinon.stub().resolves(),
       _request: sinon.stub().resolves(resultadosPage.html)
     };
     getGroups = FEB.prototype.getGroups.bind(context);
   });
 
-  it('should request the proper body', () => {
-    getGroups(seasonId, categoryId);
+  it('should call getCategories first', async () => {
+    await getGroups(seasonId, categoryId);
+    expect(context.getCategories.calledOnce).to.be.true;
+    const args = context.getCategories.getCall(0).args;
+    expect(args[0]).to.equal(seasonId);
+  });
+
+  it('should request the proper body', async () => {
+    await getGroups(seasonId, categoryId);
     expect(context._request.calledOnce).to.be.true;
     const body = context._request.getCall(0).args[0];
-    expect(body).to.eql({
-      'controlNavegacion:temporadasDropDownList': seasonId,
-      'controlNavegacion:categoriasDropDownList': categoryId
-    });
+    expect(body['controlNavegacion:temporadasDropDownList']).to.equal(seasonId);
+    expect(body['controlNavegacion:categoriasDropDownList']).to.equal(categoryId);
   });
 
   it('should return the list of groups', async () => {

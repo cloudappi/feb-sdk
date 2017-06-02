@@ -9,11 +9,11 @@ describe('feb._extractSecurityFormValues', () => {
   const FEB = injectToFeb({});
   const _extractSecurityFormValues = FEB.prototype._extractSecurityFormValues;
 
-  it('should return the headers', async () => {
-    const headers = await _extractSecurityFormValues(resultadosPage.html);
-    const expectedHeaders = resultadosPage.securityHeaders;
-    Object.keys(headers).forEach((name) => {
-      expect(headers[name]).to.equal(expectedHeaders[name]);
+  it('should return the form values', async () => {
+    const values = await _extractSecurityFormValues(resultadosPage.html);
+    const expectedValues = resultadosPage.formValues;
+    Object.keys(values).forEach((name) => {
+      expect(values[name]).to.equal(expectedValues[name]);
     });
   });
 });

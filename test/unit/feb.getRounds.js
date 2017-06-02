@@ -16,13 +16,22 @@ describe('feb.getRounds', () => {
   beforeEach(() => {
     FEB = injectToFeb();
     context = {
+      getGroups: sinon.stub().resolves(),
       _request: sinon.stub().resolves(resultadosPage.html)
     };
     getRounds = FEB.prototype.getRounds.bind(context);
   });
 
-  it('should request the proper body', () => {
-    getRounds(seasonId, categoryId, groupId);
+  it('should call getGroups first', async () => {
+    await getRounds(seasonId, categoryId);
+    expect(context.getGroups.calledOnce).to.be.true;
+    const args = context.getGroups.getCall(0).args;
+    expect(args[0]).to.equal(seasonId);
+    expect(args[1]).to.equal(categoryId);
+  });
+
+  it('should request the proper body', async () => {
+    await getRounds(seasonId, categoryId, groupId);
     expect(context._request.calledOnce).to.be.true;
     const body = context._request.getCall(0).args[0];
     expect(body).to.eql({
