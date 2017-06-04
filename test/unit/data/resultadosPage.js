@@ -155,8 +155,72 @@ module.exports.rounds = [{
   title: 'Jornada 1 24/05/2017'
 }];
 
-module.exports.games = {
-};
+module.exports.games = [
+  {
+    day: '24/05/2017',
+    hour: '18:30',
+    localTeam: 'REAL MADRID ´A´',
+    localScore: null,
+    visitorTeam: 'UNICAJA RINCON FERTILIDAD',
+    visitorScore: null
+  },
+  {
+    day: '24/05/2017',
+    hour: '12:30',
+    localTeam: 'REAL BETIS ENERGIA PLUS',
+    localScore: null,
+    visitorTeam: 'BILBAO UNAMUNO',
+    visitorScore: null
+  },
+  {
+    day: '24/05/2017',
+    hour: '10:30',
+    localTeam: 'CAI ZARAGOZA A',
+    localScore: 94,
+    visitorTeam: 'EBA',
+    visitorScore: 63
+  },
+  {
+    day: '24/05/2017',
+    hour: '19:00',
+    localTeam: 'CANTERBURY ACADEMY',
+    localScore: null,
+    visitorTeam: 'VALENCIA BC A',
+    visitorScore: null
+  },
+  {
+    day: '24/05/2017',
+    hour: '17:00',
+    localTeam: 'F.C. BARCELONA LASSA A',
+    localScore: null,
+    visitorTeam: 'MOVISTAR ESTUDIANTES ´A´',
+    visitorScore: null
+  },
+  {
+    day: '24/05/2017',
+    hour: '12:00',
+    localTeam: 'LOIOLA INDAUTXU 01',
+    localScore: 71,
+    visitorTeam: 'EASO 01 BEGITEK',
+    visitorScore: 55
+  },
+  {
+    day: '24/05/2017',
+    hour: '10:00',
+    localTeam: 'CLUB JOVENTUT BADALONA A',
+    localScore: 85,
+    visitorTeam: 'SANTO DOMINGO TENERIFE',
+    visitorScore: 73
+  },
+  {
+    day: '24/05/2017',
+    hour: '16:30',
+    localTeam: 'GRAN CANARIA',
+    localScore: null,
+    visitorTeam: 'REAL CANOE N.C.',
+    visitorScore: null
+  }
+];
 
 module.exports.html = `
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" >

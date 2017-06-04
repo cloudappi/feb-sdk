@@ -33,7 +33,7 @@ describe('FEB SDK', () => {
   it('should be able to retrieve all category groups', async() => {
     const reply = await feb.getGroups(2015, 12083);
     expect(reply).to.be.a('array');
-    expect(reply).to.have.length.of.at.least(6);
+    expect(reply).to.have.lengthOf(6);
     reply.forEach((group) => {
       expect(group).to.have.property('id');
       expect(group).to.have.property('title');
@@ -52,5 +52,26 @@ describe('FEB SDK', () => {
     expect(round.title).to.equal('Jornada 2 17/04/2016');
   });
 
-  it('should be able to retrieve the round games');
+  it('should be able to retrieve the round games', async () => {
+    const reply = await feb.getGames(2015, 12083, 54100, 440169);
+    expect(reply).to.be.a('array');
+    expect(reply).to.have.lengthOf(8);
+
+    reply.forEach((game) => {
+      expect(game).to.have.property('day');
+      expect(game).to.have.property('hour');
+      expect(game).to.have.property('localTeam');
+      expect(game).to.have.property('localScore');
+      expect(game).to.have.property('visitorTeam');
+      expect(game).to.have.property('visitorScore');
+    });
+
+    const game = reply[2];
+    expect(game.day).to.equal('16/04/2016');
+    expect(game.hour).to.equal('20:00');
+    expect(game.localTeam).to.equal('C.B. LAS ROZAS');
+    expect(game.localScore).to.equal(48);
+    expect(game.visitorTeam).to.equal('MAJADAHONDA');
+    expect(game.visitorScore).to.equal(81);
+  });
 });

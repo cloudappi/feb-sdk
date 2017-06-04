@@ -23,7 +23,7 @@ describe('feb.getRounds', () => {
   });
 
   it('should call getGroups first', async () => {
-    await getRounds(seasonId, categoryId);
+    await getRounds(seasonId, categoryId, groupId);
     expect(context.getGroups.calledOnce).to.be.true;
     const args = context.getGroups.getCall(0).args;
     expect(args[0]).to.equal(seasonId);
