@@ -2,10 +2,13 @@
 
 module.exports = {};
 
-module.exports.clubs = [];
+module.exports.content = {
+  morePending: false,
+  rows: []
+};
 
 function addClub(team, club) {
-  module.exports.clubs.push({
+  module.exports.content.rows.push({
     team, club
   });
 }

@@ -5,36 +5,38 @@ const sinon = require('sinon');
 const qs = require('querystring');
 
 const injectToFeb = require('../../lib/feb');
-const equiposFirstPage = require('./data/equiposPage1');
+const equiposSecondPage = require('./data/equiposPage2');
 
-describe('feb._getClubsFirstPage', () => {
+describe('feb._getClubsSecondPage', () => {
   const competitionId = 14;
   const seasonId = 2016;
   const categoryId = 13242;
   const groupId = 9989;
   let FEB;
   let context;
-  let _getClubsFirstPage;
+  let _getClubsSecondPage;
   beforeEach(() => {
     FEB = injectToFeb();
     context = {
       competitionId,
-      _request: sinon.stub().resolves(equiposFirstPage.html),
-      _preloadClubs: sinon.stub().resolves()
+      _request: sinon.stub().resolves(equiposSecondPage.html),
+      _getClubsFirstPage: sinon.stub().resolves()
     };
-    _getClubsFirstPage = FEB.prototype._getClubsFirstPage.bind(context);
+    _getClubsSecondPage = FEB.prototype._getClubsSecondPage.bind(context);
   });
 
-  it('should call _preloadClubs first', async () => {
-    await _getClubsFirstPage(seasonId, categoryId, groupId);
-    expect(context._preloadClubs.calledOnce).to.be.true;
-    const args = context._preloadClubs.getCall(0).args;
-    expect(args[0]).to.equal(categoryId);
+  it('should call _getClubsFirstPage first', async () => {
+    await _getClubsSecondPage(seasonId, categoryId, groupId);
+    expect(context._getClubsFirstPage.calledOnce).to.be.true;
+    const args = context._getClubsFirstPage.getCall(0).args;
+    expect(args[0]).to.equal(seasonId);
+    expect(args[1]).to.equal(categoryId);
+    expect(args[2]).to.equal(groupId);
   });
 
 
   it('should request the proper body', async () => {
-    await _getClubsFirstPage(seasonId, categoryId, groupId);
+    await _getClubsSecondPage(seasonId, categoryId, groupId);
 
     expect(context._request.calledOnce).to.be.true;
 
@@ -42,7 +44,8 @@ describe('feb._getClubsFirstPage', () => {
     expect(body).to.eql({
       'controlNavegacion:temporadasDropDownList': seasonId,
       'controlNavegacion:categoriasDropDownList': categoryId,
-      'gruposDropDownList': groupId
+      'gruposDropDownList': groupId,
+      '_EVENTTARGET': 'equiposDataGrid$_ctl1$_ctl1'
     });
 
     const uri = context._request.getCall(0).args[1];
@@ -57,12 +60,12 @@ describe('feb._getClubsFirstPage', () => {
   });
 
   it('should return the list of clubs and teams', async () => {
-    const result = await _getClubsFirstPage(seasonId, categoryId, groupId);
+    const result = await _getClubsSecondPage(seasonId, categoryId, groupId);
 
-    expect(result.morePending).to.equal(equiposFirstPage.content.morePending);
+    expect(result.morePending).to.equal(equiposSecondPage.content.morePending);
 
     const rows = result.rows;
-    const expectedRows = equiposFirstPage.content.rows;
+    const expectedRows = equiposSecondPage.content.rows;
 
     expect(rows).to.have.lengthOf(expectedRows.length);
 
