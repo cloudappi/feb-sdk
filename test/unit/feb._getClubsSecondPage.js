@@ -45,7 +45,7 @@ describe('feb._getClubsSecondPage', () => {
       'controlNavegacion:temporadasDropDownList': seasonId,
       'controlNavegacion:categoriasDropDownList': categoryId,
       'gruposDropDownList': groupId,
-      '_EVENTTARGET': 'equiposDataGrid$_ctl1$_ctl1'
+      '__EVENTTARGET': 'equiposDataGrid$_ctl1$_ctl1'
     });
 
     const uri = context._request.getCall(0).args[1];

@@ -71,4 +71,23 @@ describe('feb._getClubsFirstPage', () => {
       expect(row.club).to.equal(rows[index].club);
     });
   });
+
+  it('should work with groups with only one page', async () => {
+    const equiposSinglePage = require('./data/equiposSinglePage');
+    context._request = sinon.stub().resolves(equiposSinglePage.html);
+    _getClubsFirstPage = FEB.prototype._getClubsFirstPage.bind(context);
+
+    const result = await _getClubsFirstPage(seasonId, categoryId, groupId);
+    expect(result.morePending).to.equal(equiposSinglePage.content.morePending);
+
+    const rows = result.rows;
+    const expectedRows = equiposSinglePage.content.rows;
+
+    expect(rows).to.have.lengthOf(expectedRows.length);
+
+    expectedRows.forEach((row, index) => {
+      expect(row.team).to.equal(rows[index].team);
+      expect(row.club).to.equal(rows[index].club);
+    });
+  });
 });

@@ -75,16 +75,14 @@ describe('FEB SDK', () => {
     expect(game.visitorScore).to.equal(81);
   });
 
-  it.only('should be able to retrieve the group clubs', async() => {
+  it('should be able to retrieve the group team-clubs relationship', async() => {
     const reply = await feb.getClubs(2015, 12083, 54100);
     expect(reply).to.be.an('array');
     expect(reply).to.have.lengthOf(16);
 
     reply.forEach((club) => {
-      expect(club).to.have.property('publicName');
-      expect(club).to.have.property('normalizedName');
-      expect(club).to.have.property('email');
-      expect(club).to.have.property('phone');
+      expect(club).to.have.property('team');
+      expect(club).to.have.property('club');
     });
   });
 });
