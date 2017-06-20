@@ -85,4 +85,14 @@ describe('FEB SDK', () => {
       expect(club).to.have.property('club');
     });
   });
+
+  it('should identify a league group', async () => {
+    const reply = await feb.getGroupType(2015, 12083, 49760);
+    expect(reply).to.equal('league');
+  });
+
+  it('should identify a playoff group', async () => {
+    const reply = await feb.getGroupType(2015, 12083, 54100);
+    expect(reply).to.equal('playoff');
+  });
 });
