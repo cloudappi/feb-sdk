@@ -20,6 +20,7 @@ describe('feb._getClubsFirstPage', () => {
     context = {
       competitionId,
       _request: sinon.stub().resolves(equiposFirstPage.html),
+      _extractGroupId: sinon.stub().resolves(groupId+1),
       _preloadClubs: sinon.stub().resolves()
     };
     _getClubsFirstPage = FEB.prototype._getClubsFirstPage.bind(context);
