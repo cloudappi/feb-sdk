@@ -86,6 +86,17 @@ describe('FEB SDK', () => {
     });
   });
 
+  it('it should be able to retrieve team-clubs when it is the first group', async() => {
+    const reply = await feb.getClubs(2017, 14631, 63724);
+    expect(reply).to.be.an('array');
+    expect(reply).to.have.lengthOf(18);
+
+    reply.forEach((club) => {
+      expect(club).to.have.property('team');
+      expect(club).to.have.property('club');
+    });
+  });
+
   it('should identify a league group', async () => {
     const reply = await feb.getGroupType(2015, 12083, 49760);
     expect(reply).to.equal('league');
