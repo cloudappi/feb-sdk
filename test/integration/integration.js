@@ -106,6 +106,4 @@ describe('FEB SDK', () => {
     const reply = await feb.getGroupType(2015, 12083, 54100);
     expect(reply).to.equal('playoff');
   });
-
-
 });
