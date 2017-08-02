@@ -53,6 +53,7 @@ describe('feb.getGames', () => {
     games.forEach((game, index) => {
       expect(game.day).to.equal(expectedGames[index].day);
       expect(game.hour).to.equal(expectedGames[index].hour);
+      expect(game.rawTeamsLine).to.equal(expectedGames[index].localTeam + ' - ' + expectedGames[index].visitorTeam);
       expect(game.localTeam).to.equal(expectedGames[index].localTeam);
       expect(game.localScore).to.equal(expectedGames[index].localScore);
       expect(game.visitorTeam).to.equal(expectedGames[index].visitorTeam);

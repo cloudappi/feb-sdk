@@ -60,6 +60,7 @@ describe('FEB SDK', () => {
     reply.forEach((game) => {
       expect(game).to.have.property('day');
       expect(game).to.have.property('hour');
+      expect(game).to.have.property('rawTeamsLine');
       expect(game).to.have.property('localTeam');
       expect(game).to.have.property('localScore');
       expect(game).to.have.property('visitorTeam');
