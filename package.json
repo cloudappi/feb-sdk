@@ -1,6 +1,6 @@
 {
   "name": "@cloudappi/feb-sdk",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "description": "Provides easy access to Federacion Española de Baloncesto web data",
   "main": "index.js",
   "scripts": {
