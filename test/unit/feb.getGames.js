@@ -34,7 +34,7 @@ describe('feb.getGames', () => {
 
   it('should request the proper body', async () => {
     await getGames(seasonId, categoryId, groupId, roundId);
-    expect(context._request.calledOnce).to.be.true;
+    expect(context._request.calledTwice).to.be.true;
     const body = context._request.getCall(0).args[0];
     expect(body).to.eql({
       'controlNavegacion:temporadasDropDownList': seasonId,
