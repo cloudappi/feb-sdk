@@ -65,6 +65,7 @@ describe('FEB SDK', () => {
       expect(game).to.have.property('localScore');
       expect(game).to.have.property('visitorTeam');
       expect(game).to.have.property('visitorScore');
+      expect(game).to.have.property('stadium');
     });
 
     const game = reply[2];
@@ -74,6 +75,7 @@ describe('FEB SDK', () => {
     expect(game.localScore).to.equal(48);
     expect(game.visitorTeam).to.equal('MAJADAHONDA');
     expect(game.visitorScore).to.equal(81);
+    expect(game.stadium.febId).to.equal(4537);
   });
 
   it('should be able to retrieve the group team-clubs relationship', async() => {
