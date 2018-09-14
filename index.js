@@ -1,1 +1,3 @@
-module.exports = require('./lib').FEB;
+'use strict';
+
+module.exports = require('./lib');

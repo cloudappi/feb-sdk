@@ -1,0 +1,1903 @@
+[
+  {
+    "title": "Play-Off 1/4 Final",
+    "times": 25,
+    "matchedBy": "playoff-final",
+    "probability": 0.025303643724696356,
+    "result": {
+      "phase": {
+          "title": "1/4 final"
+        }
+      }
+    },
+    {
+      "title": "Fase: 1 / Grupo: 4",
+      "times": 23,
+      "matchedBy": "fase-grupo",
+      "probability": 0.02327935222672065,
+      "result": {
+        "phase": {
+          "title": "1"
+        },
+        "group": {
+          "title": "4"
+        }
+      }
+    },
+    {
+      "title": "Fase: 1 / Grupo: 3",
+      "times": 23,
+      "matchedBy": "fase-grupo",
+      "probability": 0.02327935222672065
+    },
+    {
+      "title": "Fase: 1 / Grupo: 1",
+      "times": 23,
+      "matchedBy": "fase-grupo",
+      "probability": 0.02327935222672065
+    },
+    {
+      "title": "Fase: 1 / Grupo: 2",
+      "times": 23,
+      "matchedBy": "fase-grupo",
+      "probability": 0.02327935222672065
+    },
+    {
+      "title": "Fase: 1 / Grupo: 6",
+      "times": 21,
+      "matchedBy": "fase-grupo",
+      "probability": 0.02125506072874494
+    },
+    {
+      "title": "Fase: 1 / Grupo: 5",
+      "times": 21,
+      "matchedBy": "fase-grupo",
+      "probability": 0.02125506072874494
+    },
+    {
+      "title": "Fase: 1 / Grupo: 7",
+      "times": 18,
+      "matchedBy": "fase-grupo",
+      "probability": 0.018218623481781375
+    },
+    {
+      "title": "Play-Off 1/8 Final",
+      "times": 18,
+      "matchedBy": "playoff-final",
+      "probability": 0.018218623481781375,
+      "result": {
+        "phase": {
+          "title": "1/8 final"
+        }
+      }
+    },
+    {
+      "title": "Fase: 1 / Grupo: 8",
+      "times": 17,
+      "matchedBy": "fase-grupo",
+      "probability": 0.01720647773279352
+    },
+    {
+      "title": "Play-Off 1/2 Final",
+      "times": 16,
+      "matchedBy": "playoff-final",
+      "probability": 0.016194331983805668
+    },
+    {
+      "title": "Fase: Descenso / Grupo: D1",
+      "times": 14,
+      "matchedBy": "fase-grupo",
+      "probability": 0.01417004048582996,
+      "result": {
+        "phase": {
+          "title": "Descenso"
+        },
+        "group": {
+          "title": "D1"
+        }
+      }
+    },
+    {
+      "title": "Fase: Descenso / Grupo: D2",
+      "times": 13,
+      "matchedBy": "fase-grupo",
+      "probability": 0.013157894736842105
+    },
+    {
+      "title": "Fase: 2 / Grupo: D",
+      "times": 11,
+      "matchedBy": "fase-grupo",
+      "probability": 0.011133603238866396
+    },
+    {
+      "title": "Fase: 2 / Grupo: E",
+      "times": 11,
+      "matchedBy": "fase-grupo",
+      "probability": 0.011133603238866396
+    },
+    {
+      "title": "Fase: 2 / Grupo: F",
+      "times": 11,
+      "matchedBy": "fase-grupo",
+      "probability": 0.011133603238866396
+    },
+    {
+      "title": "Fase: Clasificación / Grupo: C2",
+      "times": 11,
+      "matchedBy": "fase-grupo",
+      "probability": 0.011133603238866396,
+      "result": {
+        "phase": {
+          "title": "Clasificación"
+        },
+        "group": {
+          "title": "C2"
+        }
+      }
+    },
+    {
+      "title": "Fase: Clasificación / Grupo: C1",
+      "times": 11,
+      "matchedBy": "fase-grupo",
+      "probability": 0.011133603238866396
+    },
+    {
+      "title": "Fase: 2 / Grupo: C",
+      "times": 11,
+      "matchedBy": "fase-grupo",
+      "probability": 0.011133603238866396
+    },
+    {
+      "title": "Fase: 2 / Grupo: B",
+      "times": 11,
+      "matchedBy": "fase-grupo",
+      "probability": 0.011133603238866396
+    },
+    {
+      "title": "Fase: 2 / Grupo: A",
+      "times": 11,
+      "matchedBy": "fase-grupo",
+      "probability": 0.011133603238866396
+    },
+    {
+      "title": "Fase: Clasificación / Grupo: C3",
+      "times": 11,
+      "matchedBy": "fase-grupo",
+      "probability": 0.011133603238866396
+    },
+    {
+      "title": "Fase Final",
+      "times": 10,
+      "matchedBy": "fase-final",
+      "probability": 0.010121457489878543
+    },
+    {
+      "title": "Fase: 2 / Grupo: 1",
+      "times": 10,
+      "matchedBy": "fase-grupo",
+      "probability": 0.010121457489878543
+    },
+    {
+      "title": "Fase: 2 / Grupo: 2",
+      "times": 10,
+      "matchedBy": "fase-grupo",
+      "probability": 0.010121457489878543
+    },
+    {
+      "title": "Fase: 2 / Grupo: 3",
+      "times": 10,
+      "matchedBy": "fase-grupo",
+      "probability": 0.010121457489878543
+    },
+    {
+      "title": "Fase: 2 / Grupo: 4",
+      "times": 10,
+      "matchedBy": "fase-grupo",
+      "probability": 0.010121457489878543
+    },
+    {
+      "title": "Fase: 2 / Grupo: 7",
+      "times": 9,
+      "matchedBy": "fase-grupo",
+      "probability": 0.009109311740890687
+    },
+    {
+      "title": "17 al 24 Puesto Final",
+      "times": 9,
+      "matchedBy": "puestos-final",
+      "probability": 0.009109311740890687,
+      "result": {
+        "phase" : {
+          "title": "Final-Puestos 17 al 24"
+        }
+      }
+    },
+    {
+      "title": "17 al 24 Puesto 1/4 Final",
+      "times": 9,
+      "matchedBy": "puestos-final",
+      "probability": 0.009109311740890687
+    },
+    {
+      "title": "17 al 24 Puesto 1/2 Final",
+      "times": 9,
+      "matchedBy": "puestos-final",
+      "probability": 0.009109311740890687
+    },
+    {
+      "title": "Fase: 2 / Grupo: 5",
+      "times": 9,
+      "matchedBy": "fase-grupo",
+      "probability": 0.009109311740890687
+    },
+    {
+      "title": "Fase: 2 / Grupo: 6",
+      "times": 9,
+      "matchedBy": "fase-grupo",
+      "probability": 0.009109311740890687
+    },
+    {
+      "title": "Fase: 2 / Grupo: G",
+      "times": 8,
+      "matchedBy": "fase-grupo",
+      "probability": 0.008097165991902834
+    },
+    {
+      "title": "Final",
+      "times": 8,
+      "matchedBy": "fase-final",
+      "probability": 0.008097165991902834
+    },
+    {
+      "title": "Fase: Clasificación / Grupo: C4",
+      "times": 8,
+      "matchedBy": "fase-grupo",
+      "probability": 0.008097165991902834
+    },
+    {
+      "title": "Fase: 2 / Grupo: 8",
+      "times": 7,
+      "matchedBy": "fase-grupo",
+      "probability": 0.00708502024291498
+    },
+    {
+      "title": "3º y 4º Puesto",
+      "times": 7,
+      "matchedBy": "puestos-y",
+      "probability": 0.00708502024291498,
+      "result": {
+        "phase": {
+          "title": "3º y 4º"
+        }
+      }
+    },
+    {
+      "title": "Fase: 1 / Grupo: 9",
+      "times": 7,
+      "matchedBy": "fase-grupo",
+      "probability": 0.00708502024291498
+    },
+    {
+      "title": "Fase: 2 / Grupo: H",
+      "times": 7,
+      "matchedBy": "fase-grupo",
+      "probability": 0.00708502024291498
+    },
+    {
+      "title": "Fase: Descenso / Grupo: D3",
+      "times": 6,
+      "matchedBy": "fase-grupo",
+      "probability": 0.006072874493927126
+    },
+    {
+      "title": "Pre Play-off",
+      "times": 6,
+      "matchedBy": "pre-playoff",
+      "probability": 0.006072874493927126,
+      "results": {
+        "phase": {
+          "title": "Pre Play-off"
+      }
+    }
+  },
+  {
+    "title": "Fase: 1 / Grupo: 10",
+    "times": 5,
+    "matchedBy": "fase-grupo",
+    "probability": 0.005060728744939271
+  },
+  {
+    "title": "3º y 4º",
+    "times": 5,
+    "matchedBy": "puestos-y",
+    "probability": 0.005060728744939271
+  },
+  {
+    "title": "1ªDiv / Fase: 1 / Grupo: 6",
+    "times": 5,
+    "matchedBy": "division-fase-grupo",
+    "probability": 0.005060728744939271
+  },
+  {
+    "title": "Fase: Clasificación / Grupo: C5",
+    "times": 5,
+    "matchedBy": "fase-grupo",
+    "probability": 0.005060728744939271
+  },
+  {
+    "title": "Puestos 9 al 16 / Grupo: 1",
+    "times": 5,
+    "matchedBy": "puestos-grupo",
+    "probability": 0.005060728744939271,
+    "result": {
+      "phase": {
+        "title": "Puestos 9 al 16"
+      },
+      "group": {
+        "title": "1"
+      }
+    }
+  },
+  {
+    "title": "Puestos 9 al 16 / Grupo: 2",
+    "times": 5,
+    "matchedBy": "puestos-grupo",
+    "probability": 0.005060728744939271,
+    "result": {
+      "phase": {
+        "title": "Puestos 9 al 16"
+      },
+      "group": {
+        "title": "2"
+      }
+    }
+  },
+  {
+    "title": "2ªDiv / Fase: 1 / Grupo: 2",
+    "times": 5,
+    "matchedBy": "division-fase-grupo",
+    "probability": 0.005060728744939271,
+    "result": {
+      "division": {
+        "title": "2"
+      },
+      "phase": {
+        "title": "1"
+      },
+      "group": {
+        "title": "2"
+      }
+    }
+  },
+  {
+    "title": "2ªDiv / Fase: 1 / Grupo: 1",
+    "times": 5,
+    "matchedBy": "division-fase-grupo",
+    "probability": 0.005060728744939271
+  },
+  {
+    "title": "1ªDiv / Fase: 1 / Grupo: 8",
+    "times": 5,
+    "matchedBy": "division-fase-grupo",
+    "probability": 0.005060728744939271,
+    "result": {
+      "division": {
+        "title": "1"
+      },
+      "phase": {
+        "title": "1"
+      },
+      "group": {
+        "title": "8"
+      }
+    }
+  },
+  {
+    "title": "1ªDiv / Fase: 1 / Grupo: 7",
+    "times": 5,
+    "matchedBy": "division-fase-grupo",
+    "probability": 0.005060728744939271
+  },
+  {
+    "title": "Fase: 2 / Grupo: 9",
+    "times": 5,
+    "matchedBy": "fase-grupo",
+    "probability": 0.005060728744939271
+  },
+  {
+    "title": "Puestos 5 al 8 / Grupo: Unico",
+    "times": 5,
+    "matchedBy": "puestos-grupo",
+    "probability": 0.005060728744939271,
+    "result": {
+      "phase": {
+        "title": "Puestos 5 al 8"
+      },
+      "group": {
+        "title": "Unico"
+      }
+    }
+  },
+  {
+    "title": "1ªDiv / Fase: 1 / Grupo: 5",
+    "times": 5,
+    "matchedBy": "division-fase-grupo",
+    "probability": 0.005060728744939271
+  },
+  {
+    "title": "1ªDiv / Fase: 1 / Grupo: 4",
+    "times": 5,
+    "matchedBy": "division-fase-grupo",
+    "probability": 0.005060728744939271
+  },
+  {
+    "title": "1ªDiv / Fase: 1 / Grupo: 3",
+    "times": 5,
+    "matchedBy": "division-fase-grupo",
+    "probability": 0.005060728744939271
+  },
+  {
+    "title": "1ªDiv / Fase: 1 / Grupo: 2",
+    "times": 5,
+    "matchedBy": "division-fase-grupo",
+    "probability": 0.005060728744939271
+  },
+  {
+    "title": "1ªDiv / Fase: 1 / Grupo: 1",
+    "times": 5,
+    "matchedBy": "division-fase-grupo",
+    "probability": 0.005060728744939271
+  },
+  {
+    "title": "Puestos 17-20 1ª Division",
+    "times": 4,
+    "matchedBy": "puestos-division",
+    "probability": 0.004048582995951417,
+    "result": {
+      "division": {
+        "title": "1"
+      },
+      "phase": {
+        "title": "Puestos 17-20"
+      }
+    }
+  },
+  {
+    "title": "Puestos 13-16 1ª Division",
+    "times": 4,
+    "matchedBy": "puestos-division",
+    "probability": 0.004048582995951417,
+    "result": {
+      "division": {
+        "title": "1"
+      },
+      "phase": {
+        "title": "Puestos 13-16"
+      }
+    }
+  },
+  {
+    "title": "Fase: 1 / Grupo: Impar",
+    "times": 4,
+    "matchedBy": "fase-grupo",
+    "probability": 0.004048582995951417
+  },
+  {
+    "title": "Fase: 1 / Grupo: Par",
+    "times": 4,
+    "matchedBy": "fase-grupo",
+    "probability": 0.004048582995951417
+  },
+  {
+    "title": "PRIMERA FASE H",
+    "times": 4,
+    "matchedBy": "fase-grupo-2",
+    "probability": 0.004048582995951417,
+    "result": {
+      "phase": {
+        "title": "Primera"
+      },
+      "group": {
+        "title": "H"
+      }
+    }
+  },
+  {
+    "title": "2ªDiv / Fase: 1 / Grupo: 3",
+    "times": 4,
+    "matchedBy": "division-fase-grupo",
+    "probability": 0.004048582995951417
+  },
+  {
+    "title": "2ªDiv / Fase: 1 / Grupo: 4",
+    "times": 4,
+    "matchedBy": "division-fase-grupo",
+    "probability": 0.004048582995951417
+  },
+  {
+    "title": "PLAY OFF Final",
+    "times": 4,
+    "matchedBy": "playoff-final-space",
+    "probability": 0.004048582995951417,
+    "result": {
+      "phase": {
+        "title": "Final"
+      }
+    }
+  },
+  {
+    "title": "PLAY OFF 1/2 Final",
+    "times": 4,
+    "matchedBy": "playoff-final-space",
+    "probability": 0.004048582995951417,
+    "result": {
+      "phase": {
+        "title": "1/2 Final"
+      }
+    }
+  },
+  {
+    "title": "5º y 6º",
+    "times": 4,
+    "matchedBy": "puestos-y",
+    "probability": 0.004048582995951417,
+    "result": {
+      "phase": {
+        "title": "5º y 6º"
+      }
+    }
+  },
+  {
+    "title": "7º y 8º",
+    "times": 4,
+    "matchedBy": "puestos-y",
+    "probability": 0.004048582995951417
+  },
+  {
+    "title": "PRIMERA FASE G",
+    "times": 4,
+    "matchedBy": "fase-grupo-2",
+    "probability": 0.004048582995951417
+  },
+  {
+    "title": "PLAY OFF 1/4 Final",
+    "times": 4,
+    "matchedBy": "playoff-final-space",
+    "probability": 0.004048582995951417
+  },
+  {
+    "title": "Play-Off 1/2 Final 1ª Division",
+    "times": 4,
+    "matchedBy": "playoff-fase-division",
+    "probability": 0.004048582995951417,
+    "results": {
+      "division": {
+        "title": "1"
+      },
+      "phase": {
+        "title": "1/2 final"
+      }
+    }
+  },
+  {
+    "title": "Fase: 2 / Grupo: 10",
+    "times": 4,
+    "matchedBy": "fase-grupo",
+    "probability": 0.004048582995951417
+  },
+  {
+    "title": "Puestos 05-08 1ª Division",
+    "times": 4,
+    "matchedBy": "puestos-division",
+    "probability": 0.004048582995951417
+  },
+  {
+    "title": "DESCENSO 1ª div. 1",
+    "times": 4,
+    "matchedBy": "descenso-div-grupo",
+    "probability": 0.004048582995951417,
+    "result": {
+      "division": {
+        "title": "1"
+      },
+      "phase": {
+        "title": "Descenso"
+      },
+      "group": {
+        "title": "1"
+      }
+    }
+  },
+  {
+    "title": "DESCENSO 1ª div. 2",
+    "times": 4,
+    "matchedBy": "descenso-div-grupo",
+    "probability": 0.004048582995951417,
+    "result": {
+      "division": {
+        "title": "1"
+      },
+      "phase": {
+        "title": "Descenso"
+      },
+      "group": {
+        "title": "2"
+      }
+    }
+  },
+  {
+    "title": "DESCENSO 1ª div. 3",
+    "times": 4,
+    "matchedBy": "descenso-div-grupo",
+    "probability": 0.004048582995951417
+  },
+  {
+    "title": "Play-Off 1/4 Final 1ª Division",
+    "times": 4,
+    "matchedBy": "playoff-fase-division",
+    "probability": 0.004048582995951417
+  },
+  {
+    "title": "PLAY OFF 1/8 Final",
+    "times": 4,
+    "matchedBy": "playoff-final-space",
+    "probability": 0.004048582995951417
+  },
+  {
+    "title": "Puestos 09-12 1ª Division",
+    "times": 4,
+    "matchedBy": "puestos-division",
+    "probability": 0.004048582995951417
+  },
+  {
+    "title": "PRIMERA FASE A",
+    "times": 4,
+    "matchedBy": "fase-grupo-2",
+    "probability": 0.004048582995951417
+  },
+  {
+    "title": "Puestos 21-24 1ª Division",
+    "times": 4,
+    "matchedBy": "puestos-division",
+    "probability": 0.004048582995951417
+  },
+  {
+    "title": "CLAS. para 1/4 final 1ª div. 1",
+    "times": 4,
+    "matchedBy": "clas-fase-div-grupo",
+    "probability": 0.004048582995951417,
+    "result": {
+      "division": {
+        "title": "1"
+      },
+      "phase": {
+        "title": "Clasificación 1/4 final"
+      },
+      "group": {
+        "title": "1"
+      }
+    }
+  },
+  {
+    "title": "CLAS. para 1/4 final 1ª div. 2",
+    "times": 4,
+    "matchedBy": "clas-fase-div-grupo",
+    "probability": 0.004048582995951417
+  },
+  {
+    "title": "CLAS. para 1/4 final 1ª div. 3",
+    "times": 4,
+    "matchedBy": "clas-fase-div-grupo",
+    "probability": 0.004048582995951417
+  },
+  {
+    "title": "CLAS. para 1/4 final 1ª div. 4",
+    "times": 4,
+    "matchedBy": "clas-fase-div-grupo",
+    "probability": 0.004048582995951417
+  },
+  {
+    "title": "PRIMERA FASE F",
+    "times": 4,
+    "matchedBy": "fase-grupo-2",
+    "probability": 0.004048582995951417
+  },
+  {
+    "title": "PRIMERA FASE E",
+    "times": 4,
+    "matchedBy": "fase-grupo-2",
+    "probability": 0.004048582995951417
+  },
+  {
+    "title": "PRIMERA FASE D",
+    "times": 4,
+    "matchedBy": "fase-grupo-2",
+    "probability": 0.004048582995951417
+  },
+  {
+    "title": "PRIMERA FASE C",
+    "times": 4,
+    "matchedBy": "fase-grupo-2",
+    "probability": 0.004048582995951417
+  },
+  {
+    "title": "PRIMERA FASE B",
+    "times": 4,
+    "matchedBy": "fase-grupo-2",
+    "probability": 0.004048582995951417
+  },
+  {
+    "title": "2ªDiv / Fase: 1 / Grupo: 7",
+    "times": 3,
+    "matchedBy": "division-fase-grupo",
+    "probability": 0.003036437246963563
+  },
+  {
+    "title": "Fase: 3 / Grupo: 3",
+    "times": 3,
+    "matchedBy": "fase-grupo",
+    "probability": 0.003036437246963563
+  },
+  {
+    "title": "Play-Off 1/2 Final 2ª Division",
+    "times": 3,
+    "matchedBy": "playoff-fase-division",
+    "probability": 0.003036437246963563
+  },
+  {
+    "title": "Puestos 9 al 12 / Grupo: Unico",
+    "times": 3,
+    "matchedBy": "puestos-grupo",
+    "probability": 0.003036437246963563
+  },
+  {
+    "title": "2ªDiv / Fase: 1 / Grupo: 8",
+    "times": 3,
+    "matchedBy": "division-fase-grupo",
+    "probability": 0.003036437246963563
+  },
+  {
+    "title": "Play-Off 1/4 Final 2ª Division",
+    "times": 3,
+    "matchedBy": "playoff-fase-division",
+    "probability": 0.003036437246963563
+  },
+  {
+    "title": "2ªDiv / Fase: 1 / Grupo: 6",
+    "times": 3,
+    "matchedBy": "division-fase-grupo",
+    "probability": 0.003036437246963563
+  },
+  {
+    "title": "2ªDiv / Fase: 1 / Grupo: 5",
+    "times": 3,
+    "matchedBy": "division-fase-grupo",
+    "probability": 0.003036437246963563
+  },
+  {
+    "title": "Puestos 9 al 12",
+    "times": 3,
+    "matchedBy": "",
+    "probability": 0.003036437246963563
+  },
+  {
+    "title": "Fase: 3 / Grupo: 2",
+    "times": 3,
+    "matchedBy": "fase-grupo",
+    "probability": 0.003036437246963563
+  },
+  {
+    "title": "Fase: 1 / Grupo: 11",
+    "times": 3,
+    "matchedBy": "fase-grupo",
+    "probability": 0.003036437246963563
+  },
+  {
+    "title": "Puestos 21-24 2ª Division",
+    "times": 2,
+    "matchedBy": "puestos-division",
+    "probability": 0.0020242914979757085
+  },
+  {
+    "title": "Puestos 5 al 8",
+    "times": 2,
+    "matchedBy": "",
+    "probability": 0.0020242914979757085
+  },
+  {
+    "title": "Descenso Grupo: 3",
+    "times": 2,
+    "matchedBy": "fase-grupo-3",
+    "probability": 0.0020242914979757085,
+    "result": {
+      "phase": {
+        "title": "Descenso"
+      },
+      "group": {
+        "title": "3"
+      }
+    }
+  },
+  {
+    "title": "Descenso Grupo: 2",
+    "times": 2,
+    "matchedBy": "fase-grupo-3",
+    "probability": 0.0020242914979757085
+  },
+  {
+    "title": "Descenso Grupo: 1",
+    "times": 2,
+    "matchedBy": "fase-grupo-3",
+    "probability": 0.0020242914979757085
+  },
+  {
+    "title": "CLAS. para 1/4 final 2ª div. 1",
+    "times": 2,
+    "matchedBy": "clas-fase-div-grupo",
+    "probability": 0.0020242914979757085
+  },
+  {
+    "title": "CLAS. para 1/4 final 2ª div. 2",
+    "times": 2,
+    "matchedBy": "clas-fase-div-grupo",
+    "probability": 0.0020242914979757085
+  },
+  {
+    "title": "CLAS. para 1/4 final 2ª div. 3",
+    "times": 2,
+    "matchedBy": "clas-fase-div-grupo",
+    "probability": 0.0020242914979757085
+  },
+  {
+    "title": "CLAS. para 1/4 final 2ª div. 4",
+    "times": 2,
+    "matchedBy": "clas-fase-div-grupo",
+    "probability": 0.0020242914979757085
+  },
+  {
+    "title": "Puestos 05-08 2ª Division",
+    "times": 2,
+    "matchedBy": "puestos-division",
+    "probability": 0.0020242914979757085
+  },
+  {
+    "title": "Final 2ª Division",
+    "times": 2,
+    "matchedBy": "",
+    "probability": 0.0020242914979757085
+  },
+  {
+    "title": "Clas.1/4Final Grupo: 1",
+    "times": 2,
+    "matchedBy": "fase-grupo-3",
+    "probability": 0.0020242914979757085,
+    "result": {
+      "phase": {
+        "title": "Clas.1/4Final"
+      },
+      "group": {
+        "title": "1"
+      }
+    }
+  },
+  {
+    "title": "Clas.1/4Final Grupo: 3",
+    "times": 2,
+    "matchedBy": "fase-grupo-3",
+    "probability": 0.0020242914979757085
+  },
+  {
+    "title": "DESCENSO 2ª div. 1",
+    "times": 2,
+    "matchedBy": "descenso-div-grupo",
+    "probability": 0.0020242914979757085
+  },
+  {
+    "title": "DESCENSO 2ª div. 2",
+    "times": 2,
+    "matchedBy": "descenso-div-grupo",
+    "probability": 0.0020242914979757085
+  },
+  {
+    "title": "DESCENSO 2ª div. 3",
+    "times": 2,
+    "matchedBy": "descenso-div-grupo",
+    "probability": 0.0020242914979757085
+  },
+  {
+    "title": "PLAY-OFF 1/4 Final",
+    "times": 2,
+    "matchedBy": "playoff-final",
+    "probability": 0.0020242914979757085
+  },
+  {
+    "title": "Fase: 2 / Grupo: 11",
+    "times": 2,
+    "matchedBy": "fase-grupo",
+    "probability": 0.0020242914979757085
+  },
+  {
+    "title": "Fase: 2 / Grupo: 12",
+    "times": 2,
+    "matchedBy": "fase-grupo",
+    "probability": 0.0020242914979757085
+  },
+  {
+    "title": "Fase: 2 / Grupo: 13",
+    "times": 2,
+    "matchedBy": "fase-grupo",
+    "probability": 0.0020242914979757085
+  },
+  {
+    "title": "Fase: 2 / Grupo: 14",
+    "times": 2,
+    "matchedBy": "fase-grupo",
+    "probability": 0.0020242914979757085
+  },
+  {
+    "title": "3ªDiv / Fase: 1 / Grupo: 1",
+    "times": 2,
+    "matchedBy": "division-fase-grupo",
+    "probability": 0.0020242914979757085
+  },
+  {
+    "title": "3ªDiv / Fase: 1 / Grupo: 2",
+    "times": 2,
+    "matchedBy": "division-fase-grupo",
+    "probability": 0.0020242914979757085
+  },
+  {
+    "title": "Puestos 09-12 2ª Division",
+    "times": 2,
+    "matchedBy": "puestos-division",
+    "probability": 0.0020242914979757085
+  },
+  {
+    "title": "Clas.1/4Final Grupo: 2",
+    "times": 2,
+    "matchedBy": "fase-grupo-3",
+    "probability": 0.0020242914979757085
+  },
+  {
+    "title": "Puestos 13-16 2ª Division",
+    "times": 2,
+    "matchedBy": "puestos-division",
+    "probability": 0.0020242914979757085
+  },
+  {
+    "title": "3ªDiv / Fase: 1 / Grupo: 3",
+    "times": 2,
+    "matchedBy": "division-fase-grupo",
+    "probability": 0.0020242914979757085
+  },
+  {
+    "title": "Puestos 17-20 2ª Division",
+    "times": 2,
+    "matchedBy": "puestos-division",
+    "probability": 0.0020242914979757085
+  },
+  {
+    "title": "Clas.1/4Final Grupo: 4",
+    "times": 2,
+    "matchedBy": "fase-grupo-3",
+    "probability": 0.0020242914979757085
+  },
+  {
+    "title": "Fase: 1 / Grupo: 12",
+    "times": 2,
+    "matchedBy": "fase-grupo",
+    "probability": 0.0020242914979757085
+  },
+  {
+    "title": "Fase: 1 / Grupo: 13",
+    "times": 2,
+    "matchedBy": "fase-grupo",
+    "probability": 0.0020242914979757085
+  },
+  {
+    "title": "Fase: 1 / Grupo: 14",
+    "times": 2,
+    "matchedBy": "fase-grupo",
+    "probability": 0.0020242914979757085
+  },
+  {
+    "title": "Fase: 1 / Grupo: 15",
+    "times": 2,
+    "matchedBy": "fase-grupo",
+    "probability": 0.0020242914979757085
+  },
+  {
+    "title": "Grupo B",
+    "times": 2,
+    "matchedBy": "",
+    "probability": 0.0020242914979757085
+  },
+  {
+    "title": "5º al 8º Puesto",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "09º al 12º Elim. 2",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "13º al 16º Elim. 2",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "17º al 20º Elim. 2",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "21º al 24º Elim. 2",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "13º al 16º 2ª DIV. Elim. 2",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "13º al 16º ELIM. 1",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "17º al 20º ELIM. 1",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "21º al 24º ELIM. 1",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "17º al 20º 1ª DIV. Elim. 2",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "Fase Final ",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": " Final Cadete Masc. 1ª Div.",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": " 3º y 4º Cadete Masc. 1ª",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": " Final Cadete Fem. 1ª Div.",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": " 3º y 4º Cadete Fem. 1ª",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": " Final Cadete Masc. 2ª Div.",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": " 3º y 4º Cadete Masc. 2ª",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": " Final Cadete Fem. 2ª Div.",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "3º y 4º Cadete Fem. 2ª ",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": " Final Cadete Masc. 3ª Div.",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": " 3º y 4º Cadete Masc. 3ª",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": " Final Infantil Masc. 1ª Div.",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": " 3º y 4º Infantil Masc. 1ª",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": " Final Infantil Fem. 1ª Div.",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": " 3º y 4º Infantil Fem. 1ª",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "Final Infantil Masc. 2ª Div.",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "3º y 4º Infantil Masc. 2ª",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "17º al 20º 2ª DIV. Elim. 2",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "21º al 24º 1ª DIV. Elim. 2",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "Play-Off 1/2 Final 3ª Division",
+    "times": 1,
+    "matchedBy": "playoff-fase-division",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "21º al 24º 2ª DIV. Elim. 2",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "Fase: Descenso / Grupo: Unico",
+    "times": 1,
+    "matchedBy": "fase-grupo",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "Puestos 05-08 3ª Division",
+    "times": 1,
+    "matchedBy": "puestos-division",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "Grupo A",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "Grupo 3 Único",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "Descenso Grupo: A",
+    "times": 1,
+    "matchedBy": "fase-grupo-3",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "Descenso Grupo: B",
+    "times": 1,
+    "matchedBy": "fase-grupo-3",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "Descenso Grupo: C",
+    "times": 1,
+    "matchedBy": "fase-grupo-3",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "Final 3ª Division",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "DESCENSO 3ª div. 1",
+    "times": 1,
+    "matchedBy": "descenso-div-grupo",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "DESCENSO 3ª div. 2",
+    "times": 1,
+    "matchedBy": "descenso-div-grupo",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "DESCENSO 3ª div. 3",
+    "times": 1,
+    "matchedBy": "descenso-div-grupo",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "Final 4ª Division",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "4ª Division Grupo A",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "4ª Division Grupo B",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "3ª Division Grupo A",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "3ª Division Grupo B",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "Play-Off 1/4 Final 3ª Division",
+    "times": 1,
+    "matchedBy": "playoff-fase-division",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "3ª Division Grupo C",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "3ª Division Grupo D",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "Puestos 09-12 3ª Division",
+    "times": 1,
+    "matchedBy": "puestos-division",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "1/2 Final 1ª Division",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "1/2 Final 2ª Division",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "Puestos 13-16 3ª Division",
+    "times": 1,
+    "matchedBy": "puestos-division",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "09º al 12º 1ª DIV. ELIM. 1",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "13º al 16º 1ª DIV. ELIM. 1",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "Puestos 17-20 3ª Division",
+    "times": 1,
+    "matchedBy": "puestos-division",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "17º al 20º 1ª DIV. ELIM. 1",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "21º al 24º 1ª DIV. ELIM. 1",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "Puestos 21-24 3ª Division",
+    "times": 1,
+    "matchedBy": "puestos-division",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "09º al 12º 2ª DIV. ELIM. 1",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "13º al 16º 2ª DIV. ELIM. 1",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "17º al 20º 2ª DIV. ELIM. 1",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "21º al 24º 2ª DIV. ELIM. 1",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "1/4 Final 1ª Division",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "1/4 Final 2ª Division",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "Grupo 2 Eliminatorias 1ºA-1ºB",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "Grupo 2 Eliminatorias 2ºA-2ºB",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "CLAS. para 1/4 final 3ª div. 1",
+    "times": 1,
+    "matchedBy": "clas-fase-div-grupo",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "CLAS. para 1/4 final 3ª div. 2",
+    "times": 1,
+    "matchedBy": "clas-fase-div-grupo",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "CLAS. para 1/4 final 3ª div. 3",
+    "times": 1,
+    "matchedBy": "clas-fase-div-grupo",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "CLAS. para 1/4 final 3ª div. 4",
+    "times": 1,
+    "matchedBy": "clas-fase-div-grupo",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "3ªDiv / Fase: 1 / Grupo: 4",
+    "times": 1,
+    "matchedBy": "division-fase-grupo",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "3ªDiv / Fase: 1 / Grupo: 5",
+    "times": 1,
+    "matchedBy": "division-fase-grupo",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "3ªDiv / Fase: 1 / Grupo: 6",
+    "times": 1,
+    "matchedBy": "division-fase-grupo",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "3ªDiv / Fase: 1 / Grupo: 7",
+    "times": 1,
+    "matchedBy": "division-fase-grupo",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "3ªDiv / Fase: 1 / Grupo: 8",
+    "times": 1,
+    "matchedBy": "division-fase-grupo",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "4ªDiv / Fase: 1 / Grupo: 1",
+    "times": 1,
+    "matchedBy": "division-fase-grupo",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "4ªDiv / Fase: 1 / Grupo: 2",
+    "times": 1,
+    "matchedBy": "division-fase-grupo",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "2ª Division 05-08",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "2ª Division  09-12",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "2ª Division 13-16",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "2ª Division 17-20",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "2ª Division 21-24",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "2ª Division 25-28",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "2ª Division 29-32",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "2ª Division 33-37",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "2ª Division Grupo A",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "2ª Division Grupo B",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "Grupo 2 Grupo A",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "Grupo 2 Grupo B",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "Clas.1/4Final Grupo: A",
+    "times": 1,
+    "matchedBy": "fase-grupo-3",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "Clas.1/4Final Grupo: B",
+    "times": 1,
+    "matchedBy": "fase-grupo-3",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "Clas.1/4Final Grupo: C",
+    "times": 1,
+    "matchedBy": "fase-grupo-3",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "Clas.1/4Final Grupo: D",
+    "times": 1,
+    "matchedBy": "fase-grupo-3",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "Puestos 09-12",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "Puestos 13-16",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "Puestos 17-20",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "Puestos 21-24",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "Puestos 25-28",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "Puestos 29-32",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "Puestos 33-37",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "Grupo 1 único",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "Grupo 4 Único",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "FINAL A 4",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "Final 1ª Division",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "Grupo Unico",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "3º y 4º 1ª Division",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "3º y 4º 2ª Division",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "5º al 8º 1ª Division",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "5º al 8º 2ª Division",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "09º al 12º 1ª DIV. Elim. 2",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "09º al 12º 2ª DIV. Elim. 2",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "Puestos 09 y 10",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "Puestos 11 y 12",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "09º al 12º Elim. Previa",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "Fase Final 3",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "Fase Final 4",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "Fase Final 1",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "Fase Final 2",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "13º al 16º 1ª DIV. Elim. 2",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "AFINAL 1ºAA-1ºAB",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "A-F4 Final",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "A-F4 1/2 Final",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "Grupo A-A",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "Grupo A-B",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "C-F4 Final",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "C3-4 \"C\" 3º-4º",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "C-F4 1/2 Final",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "CPerman 13CA-12CB",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "CPerman 13CB-12CA",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "Grupo C-A",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "Grupo C-B",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "DFFinal Final",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "D3-4 \"D\" 3º-4º",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "DFFinal 1/2 Final",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "Grupo D Clasif.",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "Grupo D Permanencia",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "Grupo D-A",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "Grupo D-B",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "EClasif EClasif",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "EDescen EDescen",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "Grupo E",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "Fase Final 1/2 1ºGR1-2ºGR2",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "Fase Final 1/2 2ºGR1-1ºGR2",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "Fase Final 1/4 GR.\"1\"",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "Fase Final 1/4 GR.\"2\"",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  },
+  {
+    "title": "09º al 12º ELIM. 1",
+    "times": 1,
+    "matchedBy": "",
+    "probability": 0.0010121457489878543
+  }
+]
