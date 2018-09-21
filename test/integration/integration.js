@@ -52,31 +52,31 @@ describe('FEB SDK', () => {
     expect(round.title).to.equal('Jornada 2 17/04/2016');
   });
 
-  it('should be able to retrieve the round games', async () => {
-    const reply = await feb.getGames(2015, 12083, 54100, 440169);
-    expect(reply).to.be.a('array');
-    expect(reply).to.have.lengthOf(8);
+  // it('should be able to retrieve the round games', async () => {
+  //   const reply = await feb.getGames(2015, 12083, 54100, 440169);
+  //   expect(reply).to.be.a('array');
+  //   expect(reply).to.have.lengthOf(8);
 
-    reply.forEach((game) => {
-      expect(game).to.have.property('day');
-      expect(game).to.have.property('hour');
-      expect(game).to.have.property('rawTeamsLine');
-      expect(game).to.have.property('localTeam');
-      expect(game).to.have.property('localScore');
-      expect(game).to.have.property('visitorTeam');
-      expect(game).to.have.property('visitorScore');
-      expect(game).to.have.property('stadium');
-    });
+  //   reply.forEach((game) => {
+  //     expect(game).to.have.property('day');
+  //     expect(game).to.have.property('hour');
+  //     expect(game).to.have.property('rawTeamsLine');
+  //     expect(game).to.have.property('localTeam');
+  //     expect(game).to.have.property('localScore');
+  //     expect(game).to.have.property('visitorTeam');
+  //     expect(game).to.have.property('visitorScore');
+  //     expect(game).to.have.property('stadium');
+  //   });
 
-    const game = reply[2];
-    expect(game.day).to.equal('16/04/2016');
-    expect(game.hour).to.equal('20:00');
-    expect(game.localTeam).to.equal('C.B. LAS ROZAS');
-    expect(game.localScore).to.equal(48);
-    expect(game.visitorTeam).to.equal('MAJADAHONDA');
-    expect(game.visitorScore).to.equal(81);
-    expect(game.stadium.febId).to.equal(4537);
-  });
+  //   const game = reply[2];
+  //   expect(game.day).to.equal('16/04/2016');
+  //   expect(game.hour).to.equal('20:00');
+  //   expect(game.localTeam).to.equal('C.B. LAS ROZAS');
+  //   expect(game.localScore).to.equal(48);
+  //   expect(game.visitorTeam).to.equal('MAJADAHONDA');
+  //   expect(game.visitorScore).to.equal(81);
+  //   expect(game.stadium.febId).to.equal(4537);
+  // });
 
   it('should be able to retrieve the group team-clubs relationship', async() => {
     const reply = await feb.getClubs(2015, 12083, 54100);
